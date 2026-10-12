@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070b14">
+<meta name="description" content="HAUNT REPORT : prévention contre les arnaques et aide au signalement sur WhatsApp.">
+<title>HAUNT REPORT — Protection numérique</title>
+<style>
+:root{--bg:#070b14;--panel:#101a2b;--blue:#3296ff;--light:#a9d5ff;--text:#f4f7ff;--muted:#a8b6cc;--border:#263b59}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,sans-serif;line-height:1.65}
+a{color:var(--light)}
+button,input,select,textarea{font:inherit}
+header{position:sticky;top:0;z-index:10;background:#080d18f5;border-bottom:1px solid var(--border);padding:13px 5%;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.brand{font-size:19px;font-weight:900;letter-spacing:1px;white-space:nowrap}
+.brand span{color:var(--blue)}
+nav{display:flex;flex-wrap:wrap;gap:13px;align-items:center}
+nav a{text-decoration:none;font-size:13px;color:#d8e7fa}
+nav a:hover{color:var(--blue)}
+.hero{text-align:center;padding:36px 18px 48px;background:radial-gradient(ellipse at top,#153b70 0%,#0a1427 44%,var(--bg) 78%)}
+.hero-image{display:block;width:min(100%,480px);aspect-ratio:1/1;object-fit:cover;margin:0 auto 27px;border-radius:50%;border:3px solid #438fff;box-shadow:0 0 20px #168aff88,0 0 60px #168aff30;animation:glow 4s ease-in-out infinite alternate}
+@keyframes glow{from{box-shadow:0 0 15px #168aff66}to{box-shadow:0 0 35px #168affbb}}
+.tag{color:var(--light);border:1px solid #2d659e;border-radius:30px;padding:5px 12px;font-size:11px;letter-spacing:1px}
+h1{font-size:clamp(34px,8vw,58px);line-height:1.12}
+h1 span{color:var(--blue)}
+.hero p{max-width:600px;margin:20px auto;color:#c3d2e7}
+.btn{display:inline-block;border:0;border-radius:9px;padding:12px 17px;margin:5px 3px;background:var(--blue);color:white;text
